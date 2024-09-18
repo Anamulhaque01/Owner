@@ -116,6 +116,10 @@ body[theme="whiteN"] .section{
     font-size: 2vw;
 }
 
+.main2{
+    display: none;
+}
+
 /* home section */
 
 
@@ -885,136 +889,11 @@ img{
 
 
 
+@media screen and (max-width: 768px) {
 
-
-@media (max-width:600px) {
-
-.home{
-    display: none;
-}
-
-/* about */
-
-.about{
-    margin-top: 15vw;
-    margin-bottom: 15vw;
-}
-
-.abotext{
-    display: none;
-}
-
-.hi{
-    display: none;
-
-}
-
-
-
-
-.myimg{
-    display: none;
-    
-    
-}
-
-
-.info{
-    display: block;
-    width: 100%;
-    height: 100vh;
-    font-size:10vw;
-}
-
-/* about end */
-
-.craft{
-    display: none;
-}
-.real{
-    display: none;
-}
-
-.team{
-    display: none;
-}
-
-.footer{
-    display: none;
-}
-
-}
-
-@media (max-width:1600px){
-    .real{
+    body{
         display: none;
-    }
-
-    .circle{
-        display: none;
-    }
-
-    
-    .ques{
-        display: block;
-        gap: 2vw;
-        justify-content: space-between;
-        position: relative;
-        align-items: start;
-        z-index: 2;
-        padding:2vw 2vw ;
-    
-    }
-    
-    .ques.ltext{
-        width: 40%;
-        padding-left: 1vw;
-        position: relative;
-        top: 0;
-        left: 0;
-        
-    }
-    
-    .ques.ltext h1{
-        font-family:"art";
-        font-size: 6rem;
-    }
-    
-    .ques.cards{
-        margin-bottom:-15vw;
-        width: 50%;
-    }
-    
-    .ques.card1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        height:inherit ;
-        background-color: #fff;
-        color:#404384;
-        border-radius: 20px;
-        margin: 5vw 0vw;
-        text-align: center;
-        z-index: 2;
-    }
-    
-    .ques.card1 h1{
-        padding:1.5vw 0;
-        font-size: 2vw;
-        padding-left:2vw ;
-        
-    }
-    
-    .ques.card1 h4{
-        opacity: .7;
-        padding-left:2vw ;
-        padding-right: 2vw;
-        padding-bottom:2vw;
-        font-size:1.2vw;
-        
-    }
-    
 
 }
 
+}
